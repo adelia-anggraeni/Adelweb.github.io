@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    color: #878787;
+}
+#main{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#wrapper{
+    margin: 0px;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background: rgb(39, 115, 228);
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#header h1{
+    padding-top:20px ;
+    font-size:27px;
+    color: white;
+    margin-left: 30px;
+    font-family: 'Times New Roman', arial, tahoma, verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+#menu-utama{
+    margin-top: auto;
+    list-style: none;
+    margin-right: 5px;
+}
+#menu-utama li{
+    float: right;
+    padding: 0px 20px;
+    border-right: 2px solid white;
+}
+#menu-utama li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu-utama li a:hover{
+    color: red;
+}
+#content-atas{
+    width: 100%;
+    height: 300px;
+    background: rgb(167, 206, 219);
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#content-atas img{
+    width: 150px;
+    height: 120px;
+    padding-left: 527px;
+    padding-top: 50px;
+    margin-bottom: 8px;
+}
+#content-atas h1{
+    text-align: center;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+#content-atas p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#content-tengah{
+    background-color: white;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+#content-tengah h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    font-size: 30px;
+}
+.about-me1{
+    float: left;
+    width: 50%;
+    height: 205px;
+    margin-left: 50px;
+}
+.about-me1 p{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+.about-me2{
+    margin-right: 120px;
+}
+.about-me2 p{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+#content-bawah{
+    width: 100%;
+    height: 700px;
+    background: rgb(167, 206, 219);
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#content-bawah h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+.kotak-content-bawah-kiri h2{
+    text-align: justify;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+.kotak-content-bawah-kiri{
+    float: left;
+    width: 250px;
+    height: 430px;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-left: 205px;
+}
+#kotak-content-bawah-kiri1{
+    width: 250px;
+    height: 420px;
+}
+#kotak-content-bawah-kiri2{
+    margin-left: 10px;
+}
+#kotak-content-bawah-kiri1{
+    margin-right: 10px;
+}
+#kotak-content-bawah-kiri{
+    margin-left: 23px;
+}
+.kotak-content-bawah-kiri img{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+.kotak-content-bawah-kiri p{
+    text-align: left;
+    color: black;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+#kotak-content-bawah-kiri2{
+    width: 250px;
+    height: 460px;
+}
+.kotak-content-bawah-kiri a{
+    background-color: rgb(39, 115, 228);
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 7px;
+}
+#kotak-content-bawah-kiri2 p{
+    padding-bottom: 30px;
+}
+.kotak-content-bawah-kiri a:hover{
+    background-color: lightblue;
+}
+#kotak-form{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+#form h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.kotak-form-kiri p{
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+    padding-left: 505px;
+    margin-bottom: 8px;
+}
+#kotak-form-kiri1 input{
+    padding: 8px;
+    color: white;
+    background-color: rgb(39, 115, 228);
+    font-weight: bold;
+}
+#kotak-form-kiri1 input:hover{
+    background-color: lightblue;
+}
+#form{
+    text-align: justify;
+    color: black;
+}
+#footer{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    background-color: rgb(39, 115, 228);
+}
+#footer p{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+#footer p a{
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+#footer p a:hover{
+    color: red;
+}
+
+
+
+
+
